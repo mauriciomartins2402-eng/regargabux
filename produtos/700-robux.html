@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[🔥 OFERTA] Robux Premium | Entrega Imediata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --ouro: #FFD700;
+            --ouro-escuro: #D4AF37;
+            --preto: #000000;
+            --preto-rico: #0F0F0F;
+            --cinza-escuro: #1A1A1A;
+            --vermelho: #FF3333;
+            --branco: #FFFFFF;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        body {
+            background-color: var(--preto-rico);
+            color: var(--branco);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        
+        /* Barra de urgência */
+        .barra-urgente {
+            background: linear-gradient(90deg, var(--vermelho), #CC0000, var(--vermelho));
+            color: white;
+            text-align: center;
+            padding: 12px 0;
+            font-weight: 700;
+            font-size: clamp(12px, 3vw, 16px);
+            position: relative;
+            overflow: hidden;
+            animation: gradient 3s linear infinite;
+            background-size: 200% auto;
+        }
+        
+        @keyframes gradient {
+            0% { background-position: 0% center; }
+            100% { background-position: 200% center; }
+        }
+        
+        /* Container principal */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Cabeçalho */
+        .header {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .header h1 {
+            font-size: clamp(2rem, 8vw, 3.5rem);
+            color: var(--ouro);
+            margin-bottom: 15px;
+            font-weight: 800;
+            background: linear-gradient(to right, var(--ouro), #FFEEAA, var(--ouro));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% auto;
+            animation: shine 3s linear infinite;
+        }
+        
+        @keyframes shine {
+            to { background-position: 200% center; }
+        }
+        
+        .header p {
+            font-size: clamp(1rem, 4vw, 1.2rem);
+            color: #CCC;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Produto */
+        .produto {
+            border: 3px solid var(--ouro);
+            border-radius: 15px;
+            background: linear-gradient(135deg, var(--cinza-escuro) 0%, var(--preto-rico) 100%);
+            padding: clamp(20px, 5vw, 40px);
+            margin: 40px 0;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        
+        .oferta-tag {
+            background: linear-gradient(90deg, var(--vermelho), #CC0000);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: clamp(0.9rem, 3vw, 1.1rem);
+            box-shadow: 0 4px 15px rgba(255,0,0,0.3);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .produto-titulo {
+            font-size: clamp(1.8rem, 6vw, 2.8rem);
+            color: var(--ouro);
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        
+        .entrega-info {
+            background: rgba(255,215,0,0.1);
+            border-left: 3px solid var(--ouro);
+            padding: 15px;
+            margin: 20px 0;
+            font-size: clamp(0.9rem, 3vw, 1.1rem);
+            border-radius: 0 5px 5px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        /* IMAGEM MAIOR - Container especial */
+        .produto-imagem-container {
+            margin: 40px 0;
+            text-align: center;
+            position: relative;
+        }
+        
+        .produto-imagem {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 15px;
+            border: 3px solid var(--ouro);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+            transition: transform 0.3s;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .produto-imagem:hover {
+            transform: scale(1.02);
+        }
+        
+        .badge-bonus {
+            position: absolute;
+            top: -15px;
+            right: 10%;
+            background: #ffc400;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            box-shadow: 0 5px 20px hsl(46, 100%, 50%);
+            animation: pulse 2s infinite;
+        }
+        
+        /* Preço */
+        .preco-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .preco-antigo {
+            text-decoration: line-through;
+            color: #ff0000;
+            font-size: clamp(2.2rem, 4vw, 2.8rem);
+        }
+        
+        .preco-novo {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 800;
+            color: var(--ouro);
+        }
+        
+        .desconto {
+            background: linear-gradient(90deg, var(--vermelho), #CC0000);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: clamp(1.2rem, 3vw, 1.5rem);
+        }
+        
+        /* Botão de compra */
+        .btn-comprar {
+            background: linear-gradient(90deg, var(--ouro), var(--ouro-escuro));
+            color: var(--preto);
+            border: none;
+            padding: 25px;
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 800;
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 40px auto;
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(255,215,0,0.5);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            display: block;
+        }
+        
+        .btn-comprar:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(255, 217, 0, 0.7);
+        }
+        
+        .btn-comprar::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            transition: all 0.7s;
+        }
+        
+        .btn-comprar:hover::after {
+            left: 100%;
+        }
+        
+        /* Garantias */
+        .garantias {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .garantia-item {
+            background: rgba(255,215,0,0.1);
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,215,0,0.3);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: clamp(1rem, 3vw, 1.2rem);
+            font-weight: 600;
+        }
+        
+        /* Descrição */
+        .descricao {
+            margin: 60px 0;
+        }
+        
+        .descricao h2 {
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            color: var(--ouro);
+            margin-bottom: 30px;
+            border-bottom: 3px solid var(--ouro);
+            padding-bottom: 15px;
+            display: inline-block;
+        }
+        
+        .passos {
+            list-style: none;
+            margin-top: 30px;
+        }
+        
+        .passos li {
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(255,215,0,0.2);
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            font-size: clamp(1rem, 3vw, 1.1rem);
+        }
+        
+        .passos li::before {
+            content: "";
+            background: var(--ouro);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--preto);
+            font-weight: bold;
+            flex-shrink: 0;
+            font-size: 1.1rem;
+        }
+        
+        .passos li:nth-child(1)::before { content: "1"; }
+        .passos li:nth-child(2)::before { content: "2"; }
+        .passos li:nth-child(3)::before { content: "3"; }
+        .passos li:nth-child(4)::before { content: "4"; }
+        
+        .alerta {
+            margin-top: 40px;
+            font-weight: 700;
+            color: var(--ouro);
+            background: rgba(255,215,0,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid var(--ouro);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: clamp(1rem, 3vw, 1.2rem);
+        }
+        
+        /* Depoimentos */
+        .depoimentos {
+            margin: 80px 0;
+        }
+        
+        .depoimentos h2 {
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            color: var(--ouro);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .cards-depoimentos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+        
+        .card-depoimento {
+            background: linear-gradient(135deg, var(--cinza-escuro) 0%, var(--preto-rico) 100%);
+            border: 2px solid var(--ouro);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        }
+        
+        .texto-depoimento {
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.7;
+            font-size: 1.1rem;
+        }
+        
+        .autor-depoimento {
+            font-weight: 800;
+            color: var(--ouro);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .autor-depoimento::before {
+            content: "";
+            width: 40px;
+            height: 3px;
+            background: var(--ouro);
+        }
+        
+        /* Selos */
+        .selos {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 60px 0;
+            flex-wrap: wrap;
+        }
+        
+        .selo {
+            background: rgba(255, 217, 0, 0.1);
+            border: 2px solid var(--ouro);
+            padding: 20px 30px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.3s;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        .selo:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(255,215,0,0.3);
+        }
+        
+        /* Rodapé */
+        .footer {
+            text-align: center;
+            padding: 50px 0;
+            border-top: 2px solid rgba(240, 204, 0, 0.3);
+            color: #888;
+            font-size: 1rem;
+            background: rgba(0,0,0,0.5);
+        }
+        
+        /* Responsividade */
+        @media (max-width: 992px) {
+            .badge-bonus {
+                right: 5%;
+                font-size: 1.2rem;
+                padding: 8px 15px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .preco-container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 15px;
+            }
+            
+            .garantias {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .selos {
+                gap: 20px;
+            }
+            
+            .badge-bonus {
+                right: 0;
+                top: -10px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .produto {
+                padding: 20px 15px;
+            }
+            
+            .btn-comprar {
+                padding: 20px;
+                font-size: 1.2rem;
+            }
+            
+            .badge-bonus {
+                font-size: 1rem;
+                padding: 6px 12px;
+                top: -8px;
+            }
+            
+            .cards-depoimentos {
+                grid-template-columns: 1fr;
+            }
+        }
+        .logo-img {
+  width: 300px;       /* Tamanho desejado */
+  height: auto;       /* Mantém proporção */
+  max-width: 200%;    /* Garante responsividade */
+}
+        
+    </style>
+</head>
+<body>
+    <!-- Barra de urgência -->
+    <div class="barra-urgente">
+        🚀 ÚLTIMAS UNIDADES DISPONÍVEIS - PROMOÇÃO TERMINA EM <span id="contador">05:00</span> 🚀
+    </div>
+    
+    <!-- Container principal -->
+    <div class="container">
+        <!-- Cabeçalho -->
+        <header class="header">
+            <img src="../assets/logo bux.png" alt="Robux Premium Logo" class="logo-img">
+            <h1>ROBUX</h1>
+            <p>Entrega automática via e-mail em menos de 2 minutos | Compra 100% segura</p>
+        </header>
+        
+        <!-- Produto -->
+        <div class="produto">
+            <div class="oferta-tag">
+                <i class="fas fa-bolt"></i> OFERTA ESPECIAL - TEMPO LIMITADO
+            </div>
+            <h2 class="produto-titulo">700 ROBUX <span style="font-size: 0.6em; color: #CCC;">+ 500 BÔNUS</span></h2>
+            <div class="entrega-info">
+                <i class="fas fa-rocket"></i>
+                <span>ENTREGA AUTOMÁTICA VIA E-MAIL EM ATÉ 2 MINUTOS | +500 ROBUX DE BÔNUS EXCLUSIVO</span>
+            </div>
+            
+            <!-- IMAGEM MAIOR - Destaque especial -->
+            <div class="produto-imagem-container">
+                <img src="../assets/700 ROBUX.png" alt="Pacote Premium de 10.000 Robux" class="produto-imagem">
+                <div class="badge-bonus">+500 BÔNUS</div>
+            </div>
+            
+            <!-- Preço -->
+            <div class="preco-container">
+                <div>
+                    <div class="preco-antigo">De R$ 27,90</div>
+                    <div class="preco-novo">R$ 18,90</div>
+                </div>
+                <div class="desconto">20% OFF</div>
+            </div>
+            
+             <!-- Botão de compra -->
+             <a href="https://pay.osegpagmentos.com/checkout/f28a3995-b8e2-46af-8ddb-3f4d154421da" style="text-decoration: none;">
+  <button class="btn-comprar">
+    <i class="fas fa-bolt"></i> COMPRAR AGORA
+  </button>
+</a>
+            <!-- Garantias -->
+            <div class="garantias">
+                <div class="garantia-item"><i class="fas fa-bolt"></i> ENVIO IMEDIATO</div>
+                <div class="garantia-item"><i class="fas fa-shield-alt"></i> COMPRA SEGURA</div>
+                <div class="garantia-item"><i class="fas fa-headset"></i> SUPORTE 24H</div>
+                <div class="garantia-item"><i class="fas fa-gift"></i> BÔNUS EXCLUSIVO</div>
+            </div>
+        </div>
+        
+        <!-- Descrição -->
+        <div class="descricao">
+            <h2><i class="fas s"></i> COMO FUNCIONA</h2>
+            <p style="margin-bottom: 30px; line-height: 1.7; font-size: 1.1rem;">Adquira seus Robux de forma rápida, segura e com bônus exclusivos que só encontram aqui:</p>
+            
+            <ul class="passos">
+                <li><strong>Passo 1:</strong> Complete sua compra de forma segura </li>
+                <li><strong>Passo 2:</strong> Receba seu código por e-mail em até 2 minutos (também disponível na tela de confirmação)</li>
+                <li><strong>Passo 3:</strong> Acesse o Roblox, vá em "Resgatar Cartões" e insira o código recebido</li>
+                <li><strong>Passo 4:</strong> Seus Robux + bônus serão creditados instantaneamente na sua conta</li>
+            </ul>
+            
+            <div class="alerta">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span>ATENÇÃO: Esta oferta é exclusiva e pode ser encerrada a qualquer momento sem aviso prévio. Garanta já o seu pacote de 10.000 Robux com bônus!</span>
+            </div>
+        </div>
+        
+        <!-- Depoimentos -->
+        <div class="depoimentos">
+            <h2><i class="fas fa-comment-alt"></i> O QUE NOSSOS CLIENTES DIZEM</h2>
+            
+            <div class="cards-depoimentos">
+                <div class="card-depoimento">
+                    <p class="texto-depoimento">
+                       "Comprei às 2h da madrugada e recebi em 3 minutos! Não acreditei na velocidade. Virei cliente fiel!"
+                    </p>
+                    <div class="autor-depoimento">Ana Clara</div>
+                    <div class="data-depoimento">10/05/2025</div>
+                </div>
+                
+                <div class="card-depoimento">
+                    <p class="texto-depoimento">
+                        "Presenteei meu sobrinho e ele pirou! O código chegou antes mesmo de eu terminar de pagar. Incrível!"
+                    </p>
+                    <div class="autor-depoimento">Vitor Hugo</div>
+                    <div class="data-depoimento">21/06/2025</div>
+                </div>
+                
+                <div class="card-depoimento">
+                    <p class="texto-depoimento">
+                        "Usei o PIX e em 5 minutos estava com meus Robux. Só não dou 5 estrelas porque queria mais opções de pagamento."
+                    </p>
+                    <div class="autor-depoimento">Fernanda Gomes</div>
+                    <div class="data-depoimento">05/07/2024</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Selos -->
+        <div class="selos">
+            <div class="selo"><i class="fas fa-lock"></i> SITE SEGURO</div>
+            <div class="selo"><i class="fas fa-bolt"></i> ENVIO IMEDIATO</div>
+            <div class="selo"><i class="fas fa-shield-alt"></i> GARANTIA</div>
+            <div class="selo"><i class="fas fa-credit-card"></i> PAGAMENTO SEGURO</div>
+        </div>
+    </div>
+    
+    <!-- Rodapé -->
+    <footer class="footer">
+        © 2023 Robux Premium - Todos os direitos reservados<br>
+        Este serviço não é afiliado à Roblox Corporation
+    </footer>
+    
+    <script>
+        // Contador regressivo
+        function atualizarContador() {
+            let minutos = 5;
+            let segundos = 0;
+            
+            const intervalo = setInterval(() => {
+                if (segundos === 0) {
+                    if (minutos === 0) {
+                        clearInterval(intervalo);
+                        document.getElementById('contador').textContent = "00:00";
+                        document.querySelector('.barra-urgente').innerHTML = '⚠️ PROMOÇÃO ENCERRADA ⚠️';
+                        return;
+                    }
+                    minutos--;
+                    segundos = 59;
+                } else {
+                    segundos--;
+                }
+                
+                document.getElementById('contador').textContent = 
+                    `${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
+            }, 1000);
+        }
+        
+        // Botão de compra
+        document.getElementById('btnComprar').addEventListener('click', function() {
+            alert('Compra realizada com sucesso! Verifique seu e-mail para receber seu código de Robux.');
+        });
+        
+        window.onload = atualizarContador;
+    </script>
+</body>
+</html>
